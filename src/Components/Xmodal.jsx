@@ -64,7 +64,7 @@ const Xmodal =()=>{
 return (
     <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
         <h1>User Details Modal</h1>
-        <button style={{background:"#1976d2" ,color:"white",height:"40px",width:"100px",borderRadius:"5px",border:"none"}} onClick={handleModal}>Open From</button>
+        <button style={{background:"#1976d2" ,color:"white",height:"40px",width:"100px",borderRadius:"5px",border:"none"}} onClick={handleModal}>Open Form</button>
         {isOpen&&(
             <div className="modal" onClick={closeModal}>
                 <div className="modal-content" onClick={(e)=>e.stopPropagation()}>
